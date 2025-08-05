@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohard Energia Solar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="./img/logo sohard vetor.png" alt="logo sohard" class="logo-img">
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                &#9776;
+            </button>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero" data-anima="fade-up">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Energia Solar para um Futuro Sustentável</h1>
+                    <p>Economize na conta de luz e contribua para o meio ambiente com nossos sistemas de energia solar.
+                    </p>
+                    <a href="#contato" class="btn">Solicite seu Orçamento</a>
+                </div>
+
+                <div class="hero-image">
+                    <img src="./img/instalacao-energia-solar-residencial-1.jpg" alt="image instalação">
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos" data-anima="fade-up">
+            <div class="container">
+                <h2>Nossos Projetos</h2>
+                <p>Conheça algumas instalações realizadas com nossos sistemas de energia solar.</p>
+
+                <div class="projetos-grid">
+                    <div class="projeto-card">
+                        <img src="./img/projeto-residencial-grande.jpg" alt="instalação residencial">
+                        <h3>Instalação na Barra Nova</h3>
+                        <p>Projeto com geração média mensal de 1500kWh na Barra Nova</p>
+                    </div>
+
+                    <div class="projeto-card">
+                        <img src="./img/projeto-comercial.jpg" alt="instalação comercial">
+                        <h3>Instalação no Graciliano Ramos</h3>
+                        <p>Projeto com geração média mensal de 6000kWh em galpão no Graciliano Ramos</p>
+                    </div>
+
+                    <div class="projeto-card">
+                        <img src="./img/projeto-rural.jpg" alt="instalação rural">
+                        <h3>Instalação em Maribondo</h3>
+                        <p>Projeto com geração média mensal de 8000kWh em fazenda na cidade de Maribondo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="servicos" class="servicos" data-anima="fade-up">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos soluções completas em energia solar para todos os tipos de necessidade.</p>
+
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <img src="./img/img serviços/eco-house.png" alt="instalação residencial">
+                    <h3>Residencial</h3>
+                    <p>Economize na sua conta de luz e aumente a valorizaçãodo seu imóvel</p>
+                </div>
+
+                <div class="servico-card">
+                    <img src="./img/img serviços/solar-energy.png" alt="instalação empresarial">
+                    <h3>Empresarial</h3>
+                    <p>Melhore a eficiência energética do seu negócio, seja ele grande ou pequeno</p>
+                </div>
+
+                <div class="servico-card">
+                    <img src="./img/img serviços/solar-panel.png" alt="instalação empresarial">
+                    <h3>Rural</h3>
+                    <p>Melhoria na qualidade de energia trazendo benefícios</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato" data-anima="fade-up">
+        <div class="container">
+            <h2>Fale conosco</h2>
+            <p>Entre em contato para tirar dúvidas ou solicitar um orçamento.</p>
+
+            <div class="contato-flex">
+                <form class="form-contato" action="#" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+
+                <div class="contato-info">
+                    <h3></h3>
+                    <ul>
+                        <li>
+                            📞 <strong><a href="https://wa.me/5582996471444" target="_blank">82 99647-1444</a></strong>
+                        </li>
+                        <li>
+                            📷 <strong><a href="https://www.instagram.com/sohard_energiasolar"
+                                    target="_blank">@sohard_energiasolar</a></strong>
+                        </li>
+                        <li>
+                            📍 <strong><a
+                                    href="https://www.google.com/maps?q=Rua+Comendador+Firmo+Lopes,+41,+Farol,+Maceió-AL"
+                                    target="_blank">Rua Comendador Firmo Lopes, 41, Farol, Maceió-AL</a></strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>Desenvolvido por <strong>Brotherson A.</strong> | &copy; 2025 Sohard Energia Solar. Todos os direitos
+                reservados.</p>
+        </div>
+    </footer>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navList = document.querySelector('.nav-list');
+
+    toggleBtn.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    });
+
+    const elementos = document.querySelectorAll('[data-anima]');
+
+    const animaScroll = () => {
+        elementos.forEach(el => {
+            const elTop = el.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (elTop < windowHeight * 0.85) {
+                el.classList.add('animado');
+            }
+        });
+    };
+
+    animaScroll();
+    window.addEventListener('scroll', animaScroll);
+});
+
+</script>
+
+</html>
